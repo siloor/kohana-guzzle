@@ -1,0 +1,29 @@
+{
+	"name":        "siloor/kohana-guzzle",
+	"type":        "kohana-module",
+	"description": "A Kohana 3.x module for using Guzzle, the PHP HTTP client.",
+	"homepage":    "http://siloor.com/kohana-guzzle/",
+	"license":     "MIT",
+	"keywords":    ["kohana", "client", "curl", "http", "request", "get", "post", "restful"],
+	"authors": [
+		{
+			"name": "Milan Magyar",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/siloor/kohana-guzzle/issues",
+		"source": "https://github.com/siloor/kohana-guzzle"
+	},
+	"require": {
+		"composer/installers": "~1.0",
+		"kohana/core":         ">=3.3",
+		"php":                 ">=5.3.3",
+		"guzzle/guzzle":       "3.9.*"
+	},
+	"require-dev": {
+		"kohana/core":      "3.3.*@dev",
+		"kohana/unittest":  "3.3.*@dev",
+		"kohana/koharness": "*@dev"
+	}
+}
